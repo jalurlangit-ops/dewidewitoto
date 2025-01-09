@@ -57,15 +57,15 @@ export default function RootLayout({
       <head>
         <meta charSet="utf-8" />
         <title>Dewidewitoto : Slot Gacor Gampang Maxwin Pragmatic Play Dan Slot Deposit Pulsa 5000 Tanpa Potongan</title>
-        <meta name="description" content="18toto hadir sebagai solusi bagi pecinta slot online yang mencari kemudahan dan kenyamanan dalam bermain. Dengan fitur slot deposit 3000 via Dana, Anda dapat menikmati permainan seru tanpa harus mengeluarkan modal besar" />
-        <meta name="keywords" content="18toto, Deposit Dana 5000k, Situs Judi Online, Dana Slot77, situs Slot Dana, Gopay 69 Slot, Situs Slot Deposit 5000, Situs Slot Gacor Hari Ini Via Dana, Slot Deposit 3000 Via Dana, Situs Slot Gacor Jam Ini" />
-        <meta name="google-site-verification" content="veMyOTuOGYmEQDMDDL9R58xwmmCMdesJMcTMkYDqZ3Q" />
-        <meta name="application-name" content="18toto" />
+        <meta name="description" content="Dewidewitoto hadir sebagai platform terbaik untuk Anda yang mencari pengalaman bermain slot online berkualitas. Dengan koleksi game dari provider ternama seperti Pragmatic Play, Dewidewitoto menjamin sensasi bermain yang seru dan penuh peluang menang besar. Game slot gacor yang disediakan memiliki RTP tinggi, sehingga peluang Anda untuk meraih Maxwin semakin besar" />
+        <meta name="keywords" content="Dewidewitoto, Slot Gacor Gampang Maxwin Pragmatic Play, Slot Gacor, Slot Deposit Pulsa 5000 Tanpa Potongan, Situs Slot Gacor Mahjong Ways, Situs Slot Daftar Dapat Bonus, Situs Slot Cashback Terbesar, Slot Depo 10K Bonus 20K" />
+        <meta name="google-site-verification" content="5jKaHiX9buQrqRvvo7RFk38fZApn4e4t8l5sDBLPON8" />
+        <meta name="application-name" content="dewidewitoto" />
         <link rel="author" href={nameDomain} />
         <link rel="canonical" href={nameDomain} />
-        <meta name="author" content="18toto" />
-        <meta name="publisher" content="18toto" />
-        <meta name="copyright" content="18toto" />
+        <meta name="author" content="dewidewitoto" />
+        <meta name="publisher" content="dewidewitoto" />
+        <meta name="copyright" content="dewidewitoto" />
         <meta name="robots" content="index, follow" />
         <meta name="googlebot" content="index, follow" />
         <meta name="category" content="slot" />
@@ -82,14 +82,14 @@ export default function RootLayout({
         <meta property="og:title" content="Dewidewitoto : Slot Gacor Gampang Maxwin Pragmatic Play Dan Slot Deposit Pulsa 5000 Tanpa Potongan" />
         <meta property="og:description" content="Dewidewitoto : Slot Gacor Gampang Maxwin Pragmatic Play Dan Slot Deposit Pulsa 5000 Tanpa Potongan, menawarkan pengalaman bermain slot gacor terbaik dengan keamanan terjamin. Nikmati pasaran Toto hongkong lotto lengkap dengan peluang menang tinggi, serta transaksi yang cepat dan aman. Menangkan hadiah besar di situs terpercaya ini!" />
         <meta property="og:url" content={nameDomain} />
-        <meta property="og:site_name" content="18toto" />
+        <meta property="og:site_name" content="dewidewitoto" />
         <meta property="og:locale" content="id_ID" />
         <meta property="og:image" content={nameDomain} />
         <meta property="og:image:width" content="840" />
         <meta property="og:image:height" content="480" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:creator" content="18toto" />
+        <meta name="twitter:creator" content="dewidewitoto" />
         <meta name="twitter:title" content="Dewidewitoto : Slot Gacor Gampang Maxwin Pragmatic Play Dan Slot Deposit Pulsa 5000 Tanpa Potongan" />
         <meta name="twitter:description" content="Dewidewitoto : Slot Gacor Gampang Maxwin Pragmatic Play Dan Slot Deposit Pulsa 5000 Tanpa Potongan, menawarkan pengalaman bermain slot gacor terbaik dengan keamanan terjamin. Nikmati pasaran Toto hongkong lotto lengkap dengan peluang menang tinggi, serta transaksi yang cepat dan aman. Menangkan hadiah besar di situs terpercaya ini!" />
         <meta name="twitter:image" content={nameDomain} />
