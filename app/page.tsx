@@ -90,10 +90,10 @@ export default function Home() {
             </div>
             <h1>dewidewitoto 🔥 Situs Judi Resmi Deposit Dana Dan Slot Maxwin Terbesar!</h1>
             <p>
-              dewidewitoto muncul sebagai situs resmi yang menarik perhatian para pemain slot/casino/poker/baccarat/roulette/zeus. Dikenal karena menawarkan slot Maxwin terbesar, dewidewitoto menggabungkan rtp yang sangat akurat hingga 99%.
+              Nikmati pengalaman bermain yang seru dan menguntungkan di Dewidewitoto, platform slot gacor yang menawarkan berbagai pilihan permainan dari Pragmatic Play dengan peluang Maxwin yang lebih mudah dicapai! Dengan koleksi game berkualitas tinggi dan fitur-fitur canggih, Dewidewitoto memberikan sensasi bermain yang tak tertandingi, membuat setiap putaran penuh harapan besar. Dengan RTP yang tinggi dan fitur bonus yang menggiurkan, siap-siaplah meraih kemenangan besar
             </p>
             <p>
-              dewidewitoto menyediakan pembayaran yang beragam dari E-wallet (Dana/Ovo/LinkAja/Sakuku/Jenius/Dll), QRIS yang cepat, serta beberapa bank national seperti BCA/BNI/MANDIRI/BRI!
+              Tidak hanya itu, Dewidewitoto juga memberikan kemudahan dalam melakukan deposit dengan hanya Rp 5000, tanpa adanya potongan apapun! Kini, Anda bisa langsung bergabung dan mulai bermain tanpa khawatir soal biaya tambahan. Dengan sistem deposit pulsa yang praktis dan cepat, Anda dapat fokus sepenuhnya pada keseruan permainan dan meraih jackpot impian. Jangan lewatkan kesempatan emas ini, dan rasakan sensasi kemenangan yang sesungguhnya di Dewidewitoto
             </p>
             
             <p>
