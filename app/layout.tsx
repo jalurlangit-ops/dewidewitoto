@@ -34,7 +34,7 @@ function rank() {
 	"author": {
             "@type": "Person",
             "name": "Dewidewitoto : Slot Gacor Gampang Maxwin Pragmatic Play Dan Slot Deposit Pulsa 5000 Tanpa Potongan",
-            "reviewBody": "Dewidewitoto : Slot Gacor Gampang Maxwin Pragmatic Play Dan Slot Deposit Pulsa 5000 Tanpa Potongan, menawarkan pengalaman bermain slot gacor terbaik dengan keamanan terjamin. Nikmati pasaran Toto hongkong lotto lengkap dengan peluang menang tinggi, serta transaksi yang cepat dan aman. Menangkan hadiah besar di situs terpercaya ini!"
+            "reviewBody": "Dewidewitoto hadir sebagai platform terbaik untuk Anda yang mencari pengalaman bermain slot online berkualitas. Dengan koleksi game dari provider ternama seperti Pragmatic Play, Dewidewitoto menjamin sensasi bermain yang seru dan penuh peluang menang besar. Game slot gacor yang disediakan memiliki RTP tinggi, sehingga peluang Anda untuk meraih Maxwin semakin besar"
           }
         },
     "offers": {
@@ -47,6 +47,22 @@ function rank() {
     };
   }
 
+function histats() {
+    return {
+      __html: `
+        var _Hasync= _Hasync|| [];
+        _Hasync.push(['Histats.start', '1,4921036,4,5,172,25,00010000']);
+        _Hasync.push(['Histats.fasi', '1']);
+        _Hasync.push(['Histats.track_hits', '']);
+        (function() {
+        var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+        hs.src = ('//s10.histats.com/js15_as.js');
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+        })();
+      `,
+    };
+  };
+
 export default function RootLayout({
   children
 }: Readonly<{
@@ -55,7 +71,6 @@ export default function RootLayout({
   return (
     <html lang="id" data-browser="chrome">
       <head>
-        <meta charSet="utf-8" />
         <title>Dewidewitoto : Slot Gacor Gampang Maxwin Pragmatic Play Dan Slot Deposit Pulsa 5000 Tanpa Potongan</title>
         <meta name="description" content="Dewidewitoto hadir sebagai platform terbaik untuk Anda yang mencari pengalaman bermain slot online berkualitas. Dengan koleksi game dari provider ternama seperti Pragmatic Play, Dewidewitoto menjamin sensasi bermain yang seru dan penuh peluang menang besar. Game slot gacor yang disediakan memiliki RTP tinggi, sehingga peluang Anda untuk meraih Maxwin semakin besar" />
         <meta name="keywords" content="Dewidewitoto, Slot Gacor Gampang Maxwin Pragmatic Play, Slot Gacor, Slot Deposit Pulsa 5000 Tanpa Potongan, Situs Slot Gacor Mahjong Ways, Situs Slot Daftar Dapat Bonus, Situs Slot Cashback Terbesar, Slot Depo 10K Bonus 20K" />
@@ -80,7 +95,7 @@ export default function RootLayout({
         <meta name="distribution" content="global" />
         <meta name="format-detection" content="telephone=no, address=no, email=no" />
         <meta property="og:title" content="Dewidewitoto : Slot Gacor Gampang Maxwin Pragmatic Play Dan Slot Deposit Pulsa 5000 Tanpa Potongan" />
-        <meta property="og:description" content="Dewidewitoto : Slot Gacor Gampang Maxwin Pragmatic Play Dan Slot Deposit Pulsa 5000 Tanpa Potongan, menawarkan pengalaman bermain slot gacor terbaik dengan keamanan terjamin. Nikmati pasaran Toto hongkong lotto lengkap dengan peluang menang tinggi, serta transaksi yang cepat dan aman. Menangkan hadiah besar di situs terpercaya ini!" />
+        <meta property="og:description" content="Dewidewitoto hadir sebagai platform terbaik untuk Anda yang mencari pengalaman bermain slot online berkualitas. Dengan koleksi game dari provider ternama seperti Pragmatic Play, Dewidewitoto menjamin sensasi bermain yang seru dan penuh peluang menang besar. Game slot gacor yang disediakan memiliki RTP tinggi, sehingga peluang Anda untuk meraih Maxwin semakin besar" />
         <meta property="og:url" content={nameDomain} />
         <meta property="og:site_name" content="dewidewitoto" />
         <meta property="og:locale" content="id_ID" />
@@ -91,12 +106,12 @@ export default function RootLayout({
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:creator" content="dewidewitoto" />
         <meta name="twitter:title" content="Dewidewitoto : Slot Gacor Gampang Maxwin Pragmatic Play Dan Slot Deposit Pulsa 5000 Tanpa Potongan" />
-        <meta name="twitter:description" content="Dewidewitoto : Slot Gacor Gampang Maxwin Pragmatic Play Dan Slot Deposit Pulsa 5000 Tanpa Potongan, menawarkan pengalaman bermain slot gacor terbaik dengan keamanan terjamin. Nikmati pasaran Toto hongkong lotto lengkap dengan peluang menang tinggi, serta transaksi yang cepat dan aman. Menangkan hadiah besar di situs terpercaya ini!" />
+        <meta name="twitter:description" content="Dewidewitoto hadir sebagai platform terbaik untuk Anda yang mencari pengalaman bermain slot online berkualitas. Dengan koleksi game dari provider ternama seperti Pragmatic Play, Dewidewitoto menjamin sensasi bermain yang seru dan penuh peluang menang besar. Game slot gacor yang disediakan memiliki RTP tinggi, sehingga peluang Anda untuk meraih Maxwin semakin besar" />
         <meta name="twitter:image" content={nameDomain} />
         <link rel="icon" href="/favicon.ico?favicon.088e6c96.ico" sizes="256x256" type="image/x-icon" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="next-size-adjust" content="" />
         <script type="application/ld+json" dangerouslySetInnerHTML={rank()} key="product-jsonld" />
+        <script dangerouslySetInnerHTML={histats()} type="text/javascript" />
       </head>
       <body className={`${inter.variable} antialiased`}>{children}</body>
     </html>
