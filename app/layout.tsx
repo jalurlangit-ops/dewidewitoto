@@ -1,9 +1,8 @@
 'use client';
 
 import { Inter } from 'next/font/google';
+import GlobalConst from "./var-global";
 import './globals.css';
-
-const nameDomain = "https://www.blancoenelblanco.com";
 
 const inter = Inter({
   variable: '--font-inter',
@@ -15,13 +14,13 @@ function rank() {
       __html: `{
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
-    "name": "https://www.blancoenelblanco.com",
+    "name": '${GlobalConst.domain}',
     "operatingSystem": "ANDROID",
     "applicationCategory": "GameApplication",
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "5",
-      "ratingCount": "7143729"
+      "ratingCount": "8142921"
     },
 	"review": {
           "@type": "Review",
@@ -33,8 +32,8 @@ function rank() {
           },
 	"author": {
             "@type": "Person",
-            "name": "Dewidewitoto : Slot Gacor Gampang Maxwin Pragmatic Play Dan Slot Deposit Pulsa 5000 Tanpa Potongan",
-            "reviewBody": "Dewidewitoto hadir sebagai platform terbaik untuk Anda yang mencari pengalaman bermain slot online berkualitas. Dengan koleksi game dari provider ternama seperti Pragmatic Play, Dewidewitoto menjamin sensasi bermain yang seru dan penuh peluang menang besar. Game slot gacor yang disediakan memiliki RTP tinggi, sehingga peluang Anda untuk meraih Maxwin semakin besar"
+            "name": '${GlobalConst.title}',
+            "reviewBody": '${GlobalConst.desc}'
           }
         },
     "offers": {
@@ -51,7 +50,7 @@ function histats() {
     return {
       __html: `
         var _Hasync= _Hasync|| [];
-        _Hasync.push(['Histats.start', '1,4921036,4,5,172,25,00010000']);
+        _Hasync.push(['Histats.start', '${GlobalConst.histats}']);
         _Hasync.push(['Histats.fasi', '1']);
         _Hasync.push(['Histats.track_hits', '']);
         (function() {
@@ -71,16 +70,16 @@ export default function RootLayout({
   return (
     <html lang="id" data-browser="chrome">
       <head>
-        <title>Dewidewitoto : Slot Gacor Gampang Maxwin Pragmatic Play Dan Slot Deposit Pulsa 5000 Tanpa Potongan</title>
-        <meta name="description" content="Dewidewitoto hadir sebagai platform terbaik untuk Anda yang mencari pengalaman bermain slot online berkualitas. Dengan koleksi game dari provider ternama seperti Pragmatic Play, Dewidewitoto menjamin sensasi bermain yang seru dan penuh peluang menang besar. Game slot gacor yang disediakan memiliki RTP tinggi, sehingga peluang Anda untuk meraih Maxwin semakin besar" />
-        <meta name="keywords" content="Dewidewitoto, Slot Gacor Gampang Maxwin Pragmatic Play, Slot Gacor, Slot Deposit Pulsa 5000 Tanpa Potongan, Situs Slot Gacor Mahjong Ways, Situs Slot Daftar Dapat Bonus, Situs Slot Cashback Terbesar, Slot Depo 10K Bonus 20K" />
-        <meta name="google-site-verification" content="5jKaHiX9buQrqRvvo7RFk38fZApn4e4t8l5sDBLPON8" />
-        <meta name="application-name" content="dewidewitoto" />
-        <link rel="author" href={nameDomain} />
-        <link rel="canonical" href={nameDomain} />
-        <meta name="author" content="dewidewitoto" />
-        <meta name="publisher" content="dewidewitoto" />
-        <meta name="copyright" content="dewidewitoto" />
+        <title>{GlobalConst.title}</title>
+        <meta name="description" content={GlobalConst.desc} />
+        <meta name="keywords" content={GlobalConst.keywords} />
+        <meta name="google-site-verification" content={GlobalConst.gsc} />
+        <meta name="application-name" content={GlobalConst.brandName} />
+        <link rel="author" href={GlobalConst.domain} />
+        <link rel="canonical" href={GlobalConst.domain} />
+        <meta name="author" content={GlobalConst.brandName} />
+        <meta name="publisher" content={GlobalConst.brandName} />
+        <meta name="copyright" content={GlobalConst.brandName} />
         <meta name="robots" content="index, follow" />
         <meta name="googlebot" content="index, follow" />
         <meta name="category" content="slot" />
@@ -94,20 +93,20 @@ export default function RootLayout({
         <meta name="MobileOptimized" content="width" />
         <meta name="distribution" content="global" />
         <meta name="format-detection" content="telephone=no, address=no, email=no" />
-        <meta property="og:title" content="Dewidewitoto : Slot Gacor Gampang Maxwin Pragmatic Play Dan Slot Deposit Pulsa 5000 Tanpa Potongan" />
-        <meta property="og:description" content="Dewidewitoto hadir sebagai platform terbaik untuk Anda yang mencari pengalaman bermain slot online berkualitas. Dengan koleksi game dari provider ternama seperti Pragmatic Play, Dewidewitoto menjamin sensasi bermain yang seru dan penuh peluang menang besar. Game slot gacor yang disediakan memiliki RTP tinggi, sehingga peluang Anda untuk meraih Maxwin semakin besar" />
-        <meta property="og:url" content={nameDomain} />
-        <meta property="og:site_name" content="dewidewitoto" />
+        <meta property="og:title" content={GlobalConst.title} />
+        <meta property="og:description" content={GlobalConst.desc} />
+        <meta property="og:url" content={GlobalConst.domain} />
+        <meta property="og:site_name" content={GlobalConst.brandName} />
         <meta property="og:locale" content="id_ID" />
-        <meta property="og:image" content={nameDomain} />
+        <meta property="og:image" content={GlobalConst.domain} />
         <meta property="og:image:width" content="840" />
         <meta property="og:image:height" content="480" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:creator" content="dewidewitoto" />
-        <meta name="twitter:title" content="Dewidewitoto : Slot Gacor Gampang Maxwin Pragmatic Play Dan Slot Deposit Pulsa 5000 Tanpa Potongan" />
-        <meta name="twitter:description" content="Dewidewitoto hadir sebagai platform terbaik untuk Anda yang mencari pengalaman bermain slot online berkualitas. Dengan koleksi game dari provider ternama seperti Pragmatic Play, Dewidewitoto menjamin sensasi bermain yang seru dan penuh peluang menang besar. Game slot gacor yang disediakan memiliki RTP tinggi, sehingga peluang Anda untuk meraih Maxwin semakin besar" />
-        <meta name="twitter:image" content={nameDomain} />
+        <meta name="twitter:creator" content={GlobalConst.brandName} />
+        <meta name="twitter:title" content={GlobalConst.title} />
+        <meta name="twitter:description" content={GlobalConst.desc} />
+        <meta name="twitter:image" content={GlobalConst.domain} />
         <link rel="icon" href="/favicon.ico?favicon.088e6c96.ico" sizes="256x256" type="image/x-icon" />
         <meta name="next-size-adjust" content="" />
         <script type="application/ld+json" dangerouslySetInnerHTML={rank()} key="product-jsonld" />
